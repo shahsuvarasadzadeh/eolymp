@@ -10,10 +10,9 @@ public class NReqemliTekEdedSayi {
             count = count * 10;
         }
         n = 0;
-        for (int i = count; i < (count * 10); i=2*t) {
+        for (int i = count; i < (count * 10); i+=2) {
             n += 1;
             t++;
-            System.out.println(10000);// ??
         }
 
 
