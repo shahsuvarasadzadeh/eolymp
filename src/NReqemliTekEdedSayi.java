@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class NReqemliTekEdedSayi {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int t=1;
-        int count = 1;
-        for (int i = 1; i < n; i++) {
+        long n = sc.nextInt();
+        long t=1;
+        long count = 1;
+        for (long i = 1; i < n; i++) {
             count = count * 10;
         }
         n = 0;
-        for (int i = count; i < (count * 10); i+=2) {
+        for (long i = count; i < (count * 10); i+=2) {
             n += 1;
             t++;
         }
